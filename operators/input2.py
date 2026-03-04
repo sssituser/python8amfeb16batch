@@ -1,0 +1,6 @@
+name = input('Enter Name : ')
+fname = input('Enter Father Name ')
+age = input('Enter Age : ')
+contact = input('Enter Contact Number : ')
+print("Entred Details are")
+print(f'Name : {name}\nFather Name : {fname}\nAge : {age}\nContact :{contact}')
