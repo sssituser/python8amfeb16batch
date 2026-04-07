@@ -1,0 +1,52 @@
+Python is an object oriented programming language, since it follows
+four properties
+    1.Encapsulation :
+        Binding the Data and methods into a single unit is called Encapsulation.
+    2.Polymorphism:
+        An Entity Exhbiting different properties can be called as polymorphism.
+        It is of two types
+            Interpreter Polymorphism
+            Runtime Polymorphism
+    3.Inheritance :
+        Reusabilty of a class is called Inheritance.
+        It is of different types
+        
+    4.Abstraction
+        Hidiging unnessary data and accessing unnessary data.
+
+    class : It is the blue print of the object.
+                    or
+            It is collection of Datatypes and methods.
+    object : It is the Instance of a class or
+             It is a runtime entity.
+
+             Creation of Object:
+                          ClassName()  // exact object
+                varname = ClassName()
+Note : For  a class we can create any number of objects.
+--------------------------------------------------------------------
+                Employee()
+                Employee()
+                Employee()
+
+                
+
+
+                                DataTypes in class      
+                                class variables or static variables.:
+                                    local variables can be accessed directly in the class anywhere
+                                local variables:
+                                    local varaibles can be accessed directly inside the method , their limitation
+                                    upto that method only
+                                instance variables          
+                                    Instance variables can be accessed in any method with the self
+                                    keyword.
+                                    Instance variables can be accessed using instance
+
+
+
+
+
+
+
+    

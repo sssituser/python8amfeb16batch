@@ -1,0 +1,7 @@
+It is a method , It can be invoked when the object is created.
+It can be written __init__(),
+It is used create an object to the class.
+It is of two .
+    1.Default Constructor (Constuructor without paramter).
+    2.Constructor with Parameters.
+We can't create multiple constructors inside the class.
