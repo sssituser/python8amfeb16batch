@@ -1,0 +1,18 @@
+Interpreter(compile time polymorphism or early binding, static binding) Polymorphism :
+Examples :
+        Method overloading :
+                Single method exists in different behaviours is called Mehtod overloading.
+                Examples :
+                    print()
+                    len()
+
+
+one side of square:  5   25
+len 6  breadh = 7  Area of Rectangle  42
+
+
+Assigning a new property to the operator is called operator is called opertor overloading.
+In order to over load the operators, python has given methods to the respective operator.
++ __add__()
+- __sub__()
+* __mult__()
