@@ -1,0 +1,44 @@
+Errors are the problems or mistakes in the program, which will not all the program to execute
+Errors are of two types
+1 compiler Errors
+    These errors can occur during the conversion of the code.
+    these will not allow the program(application) to execute.
+    To avoid this we need to use proper syntaxes.
+2 Runtime Errors:
+    These errors will occur during the execution of the program, hence these are called
+    runt time errors, run time errors also called as Exceptions.
+    These errors can cause abnormal termination of the application.
+    Runtime Error or Exceptions are predefined classes which re inherited exception class.
+    To avoid abnormal temition of the application we  use Exception handling concepts,
+
+    Example : ValueError, ZeroDivisionError
+
+    in exception handling we use 
+    try : It is a block in which we write risky code,
+          try block tries execute the code, if it is not 
+          It raises exceptions object internally,
+          try can't be written alone, it we write alone interpreter syntax error,
+          try block followed with except or finally block,
+
+    except :
+         It is a clause which can catch the exception objects which are raised in the try block,
+         It is of two types
+         Individual Except block
+            It is a block which can catch Particular exception which are raised in the try block,
+            These blocks can be used to provide the suitable messages to the end user,
+         Common Except block: It is a block which can catch all the exceptions objects which are raisedi
+         in the try block,
+         The exception block with Exception class or with out Exception class,
+         can be called common except,
+    raise : It is clause which can be used to raise the exception objects to suitable except block externally
+    it is not compulsary,
+    finally clauses:
+    It is a block which can be executed after excectuting try and except block,
+    finally clause can be used to generate common messages and making values  as  inital vales,
+    closing databasing connection, it is also not compulsary
+
+    Custom Exception : It is an User defined Exception, In order to create user custom exception follow
+    below steps
+
+    1 Create class with constructor 
+    2 Inherit Exception class and send message to Exception class
