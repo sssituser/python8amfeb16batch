@@ -1,0 +1,28 @@
+functions : set of stmts or instructions which can be used to perform particular task is called
+function.
+
+functions are of two types.
+
+1.Predefined functions :
+    The functions which are there in the lib can be called as Predefined functions
+    input() len()
+    print() max()
+    type()  min()
+    dir()
+    int()
+    float()
+    
+    string : Anything written single quotes or double quotes or triple quotes can be called
+    string.
+
+    string is predefined class which consists of predefined functions(mehtods).
+    In order to work with the string we need use predefined methods(functions) of
+    string class.
+
+    string is immutable
+
+
+
+
+
+2.Userdefined funtions
