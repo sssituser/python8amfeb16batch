@@ -22,7 +22,15 @@ functions are of two types.
     string is immutable
 
 
-
-
-
 2.Userdefined funtions
+    The functions(methods) which are defined by the developer can be called userdefined methods
+    In order to work with userdefined methods
+    1.define the methods(functions)
+        How to define the function
+            syx :
+                def functionname(parameters):
+                    stmts
+                    return
+    2.Consume the methods(functions)
+
+                functionname(parameters)
